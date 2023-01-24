@@ -1,10 +1,10 @@
 export default function getResponseFromAPI() {
   const success = true;
-  return new promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     if (success) {
       resolve();
     } else {
       reject();
     }
   });
-}	
+}
